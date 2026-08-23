@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --aksioma-primary: #1a3a5c;
+  --aksioma-accent: #e8593c;
+  --aksioma-bg: #ffffff;
+  --aksioma-fg: #0a1626;
+  --aksioma-muted: #6b7280;
+  --aksioma-border: #e5e7eb;
+  --aksioma-card: #ffffff;
+}
+
+.dark {
+  --aksioma-bg: #0b1220;
+  --aksioma-fg: #f1f5f9;
+  --aksioma-muted: #94a3b8;
+  --aksioma-border: #1e2a44;
+  --aksioma-card: #111a2e;
+}
+
+body {
+  background: var(--aksioma-bg);
+  color: var(--aksioma-fg);
+}
