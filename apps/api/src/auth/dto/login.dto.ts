@@ -1,7 +1,7 @@
 import { IsString, IsMobilePhone, MinLength } from 'class-validator';
 
 export class LoginDto {
-  @IsMobilePhone('tr-TR')
+  @IsMobilePhone('az-AZ')
   mobile: string;
 
   @IsString()

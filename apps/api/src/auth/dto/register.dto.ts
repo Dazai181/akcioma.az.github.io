@@ -11,6 +11,6 @@ export class RegisterDto {
   @MaxLength(50)
   lastName: string;
 
-  @IsMobilePhone('tr-TR', {}, { message: 'Geçerli bir Türkiye telefon numarası giriniz.' })
+  @IsMobilePhone('az-AZ', {}, { message: 'Geçerli bir telefon numarası giriniz.' })
   mobile: string;
 }

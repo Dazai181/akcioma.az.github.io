@@ -1,7 +1,7 @@
 import { IsString, Length, IsMobilePhone } from 'class-validator';
 
 export class VerifyOtpDto {
-  @IsMobilePhone('tr-TR')
+  @IsMobilePhone('az-AZ')
   mobile: string;
 
   @IsString()
